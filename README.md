@@ -1,3 +1,2 @@
-# Agastya Gupta & Kevin Tan
-# Text Recoginition App
+# Agastya Gupta & Kevin Tan - Text Recognition App
 ## Components Django OCR Server & iOS CoreML App
