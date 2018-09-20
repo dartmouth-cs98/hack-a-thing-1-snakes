@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC6518921533FF200EACE80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6518821533FF200EACE80 /* AppDelegate.swift */; };
+		FCC6518B21533FF200EACE80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6518A21533FF200EACE80 /* ViewController.swift */; };
+		FCC6518E21533FF200EACE80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC6518C21533FF200EACE80 /* Main.storyboard */; };
+		FCC6519021533FF200EACE80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC6518F21533FF200EACE80 /* Assets.xcassets */; };
+		FCC6519321533FF200EACE80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC6519121533FF200EACE80 /* LaunchScreen.storyboard */; };
+		FCC6519E21533FF200EACE80 /* LandmarkrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6519D21533FF200EACE80 /* LandmarkrTests.swift */; };
+		FCC651A921533FF200EACE80 /* LandmarkrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC651A821533FF200EACE80 /* LandmarkrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC6519A21533FF200EACE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC6517D21533FF100EACE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC6518421533FF100EACE80;
+			remoteInfo = Landmarkr;
+		};
+		FCC651A521533FF200EACE80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC6517D21533FF100EACE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC6518421533FF100EACE80;
+			remoteInfo = Landmarkr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC6518521533FF200EACE80 /* Landmarkr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarkr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC6518821533FF200EACE80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCC6518A21533FF200EACE80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCC6518D21533FF200EACE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCC6518F21533FF200EACE80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC6519221533FF200EACE80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCC6519421533FF200EACE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC6519921533FF200EACE80 /* LandmarkrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC6519D21533FF200EACE80 /* LandmarkrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkrTests.swift; sourceTree = "<group>"; };
+		FCC6519F21533FF200EACE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC651A421533FF200EACE80 /* LandmarkrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarkrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC651A821533FF200EACE80 /* LandmarkrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkrUITests.swift; sourceTree = "<group>"; };
+		FCC651AA21533FF200EACE80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC6518221533FF100EACE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC6519621533FF200EACE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC651A121533FF200EACE80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC6517C21533FF100EACE80 = {
+			isa = PBXGroup;
+			children = (
+				FCC6518721533FF200EACE80 /* Landmarkr */,
+				FCC6519C21533FF200EACE80 /* LandmarkrTests */,
+				FCC651A721533FF200EACE80 /* LandmarkrUITests */,
+				FCC6518621533FF200EACE80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC6518621533FF200EACE80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6518521533FF200EACE80 /* Landmarkr.app */,
+				FCC6519921533FF200EACE80 /* LandmarkrTests.xctest */,
+				FCC651A421533FF200EACE80 /* LandmarkrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC6518721533FF200EACE80 /* Landmarkr */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6518821533FF200EACE80 /* AppDelegate.swift */,
+				FCC6518A21533FF200EACE80 /* ViewController.swift */,
+				FCC6518C21533FF200EACE80 /* Main.storyboard */,
+				FCC6518F21533FF200EACE80 /* Assets.xcassets */,
+				FCC6519121533FF200EACE80 /* LaunchScreen.storyboard */,
+				FCC6519421533FF200EACE80 /* Info.plist */,
+			);
+			path = Landmarkr;
+			sourceTree = "<group>";
+		};
+		FCC6519C21533FF200EACE80 /* LandmarkrTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC6519D21533FF200EACE80 /* LandmarkrTests.swift */,
+				FCC6519F21533FF200EACE80 /* Info.plist */,
+			);
+			path = LandmarkrTests;
+			sourceTree = "<group>";
+		};
+		FCC651A721533FF200EACE80 /* LandmarkrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC651A821533FF200EACE80 /* LandmarkrUITests.swift */,
+				FCC651AA21533FF200EACE80 /* Info.plist */,
+			);
+			path = LandmarkrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC6518421533FF100EACE80 /* Landmarkr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC651AD21533FF200EACE80 /* Build configuration list for PBXNativeTarget "Landmarkr" */;
+			buildPhases = (
+				FCC6518121533FF100EACE80 /* Sources */,
+				FCC6518221533FF100EACE80 /* Frameworks */,
+				FCC6518321533FF100EACE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Landmarkr;
+			productName = Landmarkr;
+			productReference = FCC6518521533FF200EACE80 /* Landmarkr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC6519821533FF200EACE80 /* LandmarkrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC651B021533FF200EACE80 /* Build configuration list for PBXNativeTarget "LandmarkrTests" */;
+			buildPhases = (
+				FCC6519521533FF200EACE80 /* Sources */,
+				FCC6519621533FF200EACE80 /* Frameworks */,
+				FCC6519721533FF200EACE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC6519B21533FF200EACE80 /* PBXTargetDependency */,
+			);
+			name = LandmarkrTests;
+			productName = LandmarkrTests;
+			productReference = FCC6519921533FF200EACE80 /* LandmarkrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC651A321533FF200EACE80 /* LandmarkrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC651B321533FF200EACE80 /* Build configuration list for PBXNativeTarget "LandmarkrUITests" */;
+			buildPhases = (
+				FCC651A021533FF200EACE80 /* Sources */,
+				FCC651A121533FF200EACE80 /* Frameworks */,
+				FCC651A221533FF200EACE80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC651A621533FF200EACE80 /* PBXTargetDependency */,
+			);
+			name = LandmarkrUITests;
+			productName = LandmarkrUITests;
+			productReference = FCC651A421533FF200EACE80 /* LandmarkrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC6517D21533FF100EACE80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Agastya Gupta";
+				TargetAttributes = {
+					FCC6518421533FF100EACE80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					FCC6519821533FF200EACE80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC6518421533FF100EACE80;
+					};
+					FCC651A321533FF200EACE80 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC6518421533FF100EACE80;
+					};
+				};
+			};
+			buildConfigurationList = FCC6518021533FF100EACE80 /* Build configuration list for PBXProject "Landmarkr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC6517C21533FF100EACE80;
+			productRefGroup = FCC6518621533FF200EACE80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC6518421533FF100EACE80 /* Landmarkr */,
+				FCC6519821533FF200EACE80 /* LandmarkrTests */,
+				FCC651A321533FF200EACE80 /* LandmarkrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC6518321533FF100EACE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC6519321533FF200EACE80 /* LaunchScreen.storyboard in Resources */,
+				FCC6519021533FF200EACE80 /* Assets.xcassets in Resources */,
+				FCC6518E21533FF200EACE80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC6519721533FF200EACE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC651A221533FF200EACE80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC6518121533FF100EACE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC6518B21533FF200EACE80 /* ViewController.swift in Sources */,
+				FCC6518921533FF200EACE80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC6519521533FF200EACE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC6519E21533FF200EACE80 /* LandmarkrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC651A021533FF200EACE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC651A921533FF200EACE80 /* LandmarkrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC6519B21533FF200EACE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC6518421533FF100EACE80 /* Landmarkr */;
+			targetProxy = FCC6519A21533FF200EACE80 /* PBXContainerItemProxy */;
+		};
+		FCC651A621533FF200EACE80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC6518421533FF100EACE80 /* Landmarkr */;
+			targetProxy = FCC651A521533FF200EACE80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC6518C21533FF200EACE80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC6518D21533FF200EACE80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCC6519121533FF200EACE80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC6519221533FF200EACE80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC651AB21533FF200EACE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC651AC21533FF200EACE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCC651AE21533FF200EACE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Landmarkr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.Landmarkr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCC651AF21533FF200EACE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Landmarkr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.Landmarkr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCC651B121533FF200EACE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LandmarkrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.LandmarkrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarkr.app/Landmarkr";
+			};
+			name = Debug;
+		};
+		FCC651B221533FF200EACE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LandmarkrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.LandmarkrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarkr.app/Landmarkr";
+			};
+			name = Release;
+		};
+		FCC651B421533FF200EACE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LandmarkrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.LandmarkrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Landmarkr;
+			};
+			name = Debug;
+		};
+		FCC651B521533FF200EACE80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LandmarkrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cs98.LandmarkrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Landmarkr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC6518021533FF100EACE80 /* Build configuration list for PBXProject "Landmarkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC651AB21533FF200EACE80 /* Debug */,
+				FCC651AC21533FF200EACE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC651AD21533FF200EACE80 /* Build configuration list for PBXNativeTarget "Landmarkr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC651AE21533FF200EACE80 /* Debug */,
+				FCC651AF21533FF200EACE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC651B021533FF200EACE80 /* Build configuration list for PBXNativeTarget "LandmarkrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC651B121533FF200EACE80 /* Debug */,
+				FCC651B221533FF200EACE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCC651B321533FF200EACE80 /* Build configuration list for PBXNativeTarget "LandmarkrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC651B421533FF200EACE80 /* Debug */,
+				FCC651B521533FF200EACE80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC6517D21533FF100EACE80 /* Project object */;
+}
