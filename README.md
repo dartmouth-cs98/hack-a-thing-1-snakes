@@ -16,9 +16,9 @@ Next steps:
 - host Django server on Heroku
 - configure iOS app to send http requests to Heroku server & integrate
 
-## Guides referenced:
+## Guides referenced:  
 
-Django/Tesseract: 
+Django/Tesseract:  
 https://docs.djangoproject.com/en/2.1/intro/tutorial01/ 
 https://www.bogotobogo.com/python/Django/Python_Django_Image_Files_Uploading_Example.php 
 https://pypi.org/project/pytesseract/ 
