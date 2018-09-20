@@ -9,8 +9,17 @@ Workflow is as follows:
 4) text in photo returned to iOS app
 
 What works:
-- the Django server
-- the iOS app's photo and CoreML functionality
+- the Django server (Agastya)
+- the iOS app's photo and CoreML functionality to some extent (Kevin)
+
+What didn't work:
+- Django version issues
+- Swift version issues caused certain functionalities of the app to be pretty buggy. For instance, image recognition output appears only sometimes in Xcode. Photo taking and saving functionality is not working properly, primarily because we believe the tutorial we followed was in Swift 3 while the current Swift is version 4.
+
+What we learned:
+- iOS development for camera apps (storyboard and Swift)
+- coreML for iOS
+- No cheap computer vision labelling API
 
 Next steps:
 - host Django server on Heroku
