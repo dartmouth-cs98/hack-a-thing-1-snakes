@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cs98-hack-a-thing-1",
+  "private_key_id": "f88bc727d67ce28dd603d3d56e3eb5283e128b79",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDec9yNcs0gTAgv\n0nuyCsB5q5HhKFWo2dOCN6jjmIuJ1ExSIYRit9YtWAn4i6dbwF1870ysBKAuBTH+\nHL8JROyeWis9ccFdJFWpl/pw9XqQGKHG5+xqG+Rs6s0qKrHWhb13ynx/sE7rFNCL\nGCeRRx9OT/fxSjN0xkaxesu2D86Sv4RuXMCLq5gtSJDP3Y/fX1sT45O7RuXBs6UA\nEqHXfYyvPM1M76NquRZ4LQQDpr6gr9jqOSnBUonwRT8ZaszXTFelbKBV2VkRRxFe\n3s1pBeZqAI4TMcenMqyv/yggGV/P9P9UvknH2T5r9dRu4EkaAicyDpfV3XFS67o8\n6JeLCgVDAgMBAAECggEAFn13Qb5mul+wKjQ+Y5iOWh68T8ZrVqK4gr9MLhUo8mU0\n1s7jBV9Zt4Q29IUbWqg0ViJpdDC+3bg9FC261giSYEt0eLCstdUrwKAyu+3i7M5D\nY4qPeTDbDh9KYSYnjFfsI8AkiHz+QD/T+mQVnVdSn8ZvplpJS9fp+MfrRZEL4lkV\n4DdR3XMK+Fh0V+osI0nrp5fIztyiDf9v7OfIe3k2sLDmGaq8knVIqtblyM9zMZeq\nWWCz/iDlqiR2vbBRobVLbiPmgdzaaco7IaSMSdT2BSW6LmXXRuG0uuJX4NY1nCHF\nCrPSYi2MUwi4xcGx6Xzjvyv5crVMoX+kGF3aK7T08QKBgQD79SSnHnKnlTUQ2qFh\njig/cKzWtSSnL3dYAk0uF5p/lrnWk+QkoHkBKr7I/I80u8zQcYBxTk1SGnI1XOiO\nG9Ta1inwb/U98BJcJRGIE7wco+A8BOnK44tIMBFFjEjjZznLKYp0gtvQTYfFuhqI\nd3+p2XclOd8AFDdH67156iUN8QKBgQDiBYiQPkaosGnqkWW55mvbCVvNGqH+R/7b\nyr/+70LBFph6xHmK43+dyBsbALU1Tc9jfCbaU8fM3j+mcNLeCwQZq6TgXtKcuxcQ\nUrCV9ajJ3cgZsWXYxACUukfXIk2PseaeRB2RkLHWY7q5+g/nDu6MGlbjPbKzkO0Q\nn76YyXbicwKBgBN48bk8wC21eWFxFDHe87tbcPAzFb8aCwYxP1fFmTotIvWzflla\nUZ/GdvI/mq2/qeeeLggTviQPSS5YnNyGyB+Vl64uaOy9hh26+6zhoZMxEx5wXsVA\nar5MgLk4S1XP34aVEk9I4cYqh8i/RlevrJ0q4mttGo/9//u9+2nVr8FxAoGAY7GD\nIfSGICPoI/HMB+ptymhfWKGVsF47OOE+PIl2TUrVKNl+rtdX09WOtyNhykgu4LfD\nP2vS5jdlpdl/+TassVH3YIwSo9UWADoo74wyzg+IEmUgAjO5+eAMjgTwZyBWE5sB\n29IRzvmgRCXbW9RHPf7kMklliDS1jC6Z2DSMvqcCgYBj6PnAXEPk7kdoqC81NWsW\nzRjnIolD+xahYWbEUQcc+V+t3SyKPFRkYkP9KCy28Lo4luIvtFdEFaFg+DJtrSik\neYLqQEcTXQteFlDbcYl1TFAJ+Me9U7wdS2QtCLGBf3MJu0nr6BM/T3seDsIddD7A\n8I370P4oQrvF9CYHTveHRA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "vision@cs98-hack-a-thing-1.iam.gserviceaccount.com",
+  "client_id": "111706331106955769492",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/vision%40cs98-hack-a-thing-1.iam.gserviceaccount.com"
+}
+
