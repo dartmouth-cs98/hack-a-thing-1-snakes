@@ -40,7 +40,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     }
 
     func captureOutput(_ output: AVCaptureOutput, didOutput sampleBuffer: CMSampleBuffer, from connection: AVCaptureConnection) {
-        print ("Camera was able to capture a frame", Date())
+        //print ("Camera was able to capture a frame", Date())
         
         guard let pixelBuffer:CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
@@ -49,7 +49,13 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         let request  = VNCoreMLRequest(model: model){
             (finishedReq, err) in
             
-            print (finishedReq.results)
+            //print (finishedReq.results)
+            
+            guard let results = finishedReq.results as? [VNClassificationObservation] else {return}
+            guard let firstObservation = results.first else {return}
+            
+            print(firstObservation.identifier, firstObservation.confidence)
+            
         }
         
         try? VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
