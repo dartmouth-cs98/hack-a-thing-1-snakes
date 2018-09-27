@@ -11,7 +11,9 @@ import AVKit
 import Vision
 
 class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
-
+    
+    @IBOutlet weak var objectLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -44,7 +46,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         
         guard let pixelBuffer:CVPixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else { return }
         
-        guard let model = try? VNCoreMLModel(for: SqueezeNet().model) else{ return }
+        guard let model = try? VNCoreMLModel(for: Resnet50().model) else{ return }
         
         let request  = VNCoreMLRequest(model: model){
             (finishedReq, err) in
@@ -55,7 +57,8 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
             guard let firstObservation = results.first else {return}
             
             print(firstObservation.identifier, firstObservation.confidence)
-            
+            self.objectLabel.text = firstObservation.identifier.capitalized
+
         }
         
         try? VNImageRequestHandler(cvPixelBuffer: pixelBuffer, options: [:]).perform([request])
